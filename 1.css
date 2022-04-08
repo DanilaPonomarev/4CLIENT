@@ -1,0 +1,60 @@
+* {
+  margin: 2px;
+}
+
+body {
+  font-size: 250%; /* размер шрифта*/
+  color: fff;
+  height: 100vh; /* отступы внутри*/
+  text-align: center; /*выравнивает по центру*/
+  display: flex; /*заполнение экрана*/
+  flex-direction: column; /*распологает сверху вниз*/
+}
+
+a {
+  color: white; /*Цвет ссылки*/
+}
+
+div {
+  display: flex;
+  align-items: center; /*элемент в центре*/
+  justify-content: space-around; /**/
+}
+
+.flex-header {
+  background-color: #FF4500;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 2px;
+}
+
+.flex-main {
+  display: flex;
+  flex: 1;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  vertical-align: middle;
+}
+/*меин*/
+.flex-article {
+  background-color: #FF4500;
+  padding-top: 3rem;
+  font-size: 150%;
+  flex: 3 3;
+  margin-right: 2px;
+}
+
+.flex-aside {
+  background-color: #FF4500;
+  font-size: 150%
+  padding-top: 3rem;
+  flex: 1 1 5rem;
+}
+
+.flex-footer {
+  background-color: #FF4500;
+  font-size: 150%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 2px;
+}
